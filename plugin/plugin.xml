@@ -12,7 +12,7 @@
   <preference name="APPBOY_ANDROID_API_KEY" default="$APPBOY_ANDROID_API_KEY"/>
   <preference name="APPBOY_ANDROID_PUSH_REGISTRATION_ENABLED"  default="$APPBOY_ANDROID_PUSH_REGISTRATION_ENABLED"/>
   <preference name="APPBOY_ANDROID_GCM_SENDER_ID" default="$APPBOY_ANDROID_GCM_SENDER_ID" />
-  <preference name="APPBOY_ANDROID_SMALL_NOTIFICATION_ICON" default="$APPBOY_ANDROID_SMALL_NOTIFICATION_ICON" />
+  <preference name="APPBOY_ANDROID_SMALL_NOTIFICATION_ICON" default="@drawable/logo" />
   <preference name="APPBOY_ANDROID_NOTIFICATION_ACCENT_COLOR" default="$APPBOY_ANDROID_NOTIFICATION_ACCENT_COLOR" />
 
   <!-- android -->
@@ -48,8 +48,8 @@
       <string translatable="false" name="com_appboy_api_key">$APPBOY_ANDROID_API_KEY</string>
       <bool name="com_appboy_push_gcm_messaging_registration_enabled">$APPBOY_ANDROID_PUSH_REGISTRATION_ENABLED</bool>
       <string translatable="false" name="com_appboy_push_gcm_sender_id">$APPBOY_ANDROID_GCM_SENDER_ID</string>
-      <drawable name="com_appboy_push_small_notification_icon">$APPBOY_ANDROID_SMALL_NOTIFICATION_ICON</drawable>
-      <integer name="com_appboy_default_notification_accent_color">$APPBOY_ANDROID_NOTIFICATION_ACCENT_COLOR</integer>
+      <integer name="com_appboy_default_notification_accent_color">0x693C91</integer>
+      <drawable name="com_appboy_push_small_notification_icon">@drawable/logo</drawable>
       <bool name="com_appboy_handle_push_deep_links_automatically">true</bool>
     </config-file>
     <resource-file src="src/android/appboy.xml" target="res/values/appboy.xml" />
