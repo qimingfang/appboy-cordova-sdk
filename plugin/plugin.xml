@@ -10,7 +10,7 @@
   </js-module>
 
   <preference name="APPBOY_ANDROID_API_KEY" default="$APPBOY_ANDROID_API_KEY"/>
-  <preference name="APPBOY_ANDROID_PUSH_REGISTRATION_ENABLED"  default="$APPBOY_ANDROID_PUSH_REGISTRATION_ENABLED"/>
+  <preference name="APPBOY_ANDROID_PUSH_REGISTRATION_ENABLED"  default="true"/>
   <preference name="APPBOY_ANDROID_GCM_SENDER_ID" default="$APPBOY_ANDROID_GCM_SENDER_ID" />
   <preference name="APPBOY_ANDROID_SMALL_NOTIFICATION_ICON" default="@drawable/logo" />
   <preference name="APPBOY_ANDROID_NOTIFICATION_ACCENT_COLOR" default="$APPBOY_ANDROID_NOTIFICATION_ACCENT_COLOR" />
@@ -46,7 +46,7 @@
     </config-file>
     <config-file target="res/values/appboy.xml" parent="/resources">
       <string translatable="false" name="com_appboy_api_key">$APPBOY_ANDROID_API_KEY</string>
-      <bool name="com_appboy_push_gcm_messaging_registration_enabled">$APPBOY_ANDROID_PUSH_REGISTRATION_ENABLED</bool>
+      <bool name="com_appboy_push_gcm_messaging_registration_enabled">true</bool>
       <string translatable="false" name="com_appboy_push_gcm_sender_id">$APPBOY_ANDROID_GCM_SENDER_ID</string>
       <integer name="com_appboy_default_notification_accent_color">0x693C91</integer>
       <drawable name="com_appboy_push_small_notification_icon">@drawable/logo</drawable>
